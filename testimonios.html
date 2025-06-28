@@ -29,70 +29,10 @@
     <!-- Testimonios -->
     <section class="py-16 px-4">
       <div class="max-w-4xl mx-auto text-center">
-        <h1 class="text-3xl font-bold mb-4">Cuéntanos tu experiencia</h1>
-        <p class="text-lg text-gray-600 mb-8">
-          ¿Has tenido una sesión conmigo? Me encantaría conocer tu opinión. Los testimonios ayudan a otras personas a decidirse.
+        <h1 class="text-3xl font-bold mb-4">En construcción</h1>
         </p>
 
-        <!-- Formulario -->
-        <form
-          action="https://formsubmit.co/el/viyubu"
-          method="POST"
-          id="formTestimonio"
-          class="space-y-6 bg-white p-8 rounded-xl shadow max-w-xl mx-auto">
-
-          <!-- Campos ocultos -->
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_subject" value="Nuevo testimonio desde Cogniversos" />
-          <input type="hidden" name="_template" value="table" />
-          <input type="hidden" name="_next" value="https://cogniversospsicoterapia.github.io/cogniversos/testimonios.html#graciasMensaje" />
-
-          <!-- Campo nombre -->
-          <div>
-            <label class="block text-gray-700 font-medium mb-1">Nombre (opcional)</label>
-            <input
-              name="nombre"
-              type="text"
-              class="w-full border border-gray-300 rounded-md p-2"
-              placeholder="Puedes dejarlo en blanco" />
-          </div>
-
-          <!-- Campo testimonio -->
-          <div>
-            <label class="block text-gray-700 font-medium mb-1">Tu testimonio</label>
-            <textarea
-              name="mensaje"
-              required
-              rows="5"
-              class="w-full border border-gray-300 rounded-md p-2"
-              placeholder="Escribe tu experiencia..."></textarea>
-          </div>
-
-          <!-- Botón -->
-          <button
-            type="submit"
-            class="bg-indigo-600 text-white px-6 py-2 rounded-xl hover:bg-indigo-700 transition">
-            Enviar testimonio
-          </button>
-        </form>
-
-        <!-- Mensaje de agradecimiento -->
-        <div
-          id="graciasMensaje"
-          class="hidden mt-8 bg-green-100 border border-green-300 text-green-800 px-6 py-4 rounded-xl max-w-xl mx-auto text-lg">
-          ¡Gracias por tu testimonio! 💬 Será leído pronto y podría ser publicado. 😊
-        </div>
-      </div>
-    </section>
-
-    <!-- Script para mostrar mensaje si redirige con hash -->
-    <script>
-      if (window.location.hash === "#graciasMensaje") {
-        document.getElementById("graciasMensaje").classList.remove("hidden");
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }
-    </script>
-
+      
     <!-- Footer -->
     <footer class="text-center py-6 text-sm text-gray-500">
       © 2025 Cogniversos. Todos los derechos reservados.
